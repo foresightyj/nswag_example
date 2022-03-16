@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "swagger": "nswag run nswag.json"
+    "swagger": "nswag run nswag.json",
+    "postswagger": "node ./scripts/fixSwagger.js"
   },
   "keywords": [],
   "author": "",
