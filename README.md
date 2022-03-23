@@ -3,6 +3,7 @@ https://stackblitz.com/edit/ngx-formly-custom-template-7wutff?file=app%2Fformly-
 
 # how to setup automatic upgrade of local lib
 
+```
 c://working/lib:
 {
     script: {
@@ -19,7 +20,10 @@ c://working/app:
         "uplib": "node upgrade_lib.js",
     }
 }
+```
+then in ~/.bashrc:
 
-in ~/.bashrc:
-
+```
 alias u="npm --prefix C://working/lib run pub"
+```
+
