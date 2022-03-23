@@ -1,4 +1,4 @@
-https://stackblitz.com/edit/ngx-formly-custom-template-7wutff?file=app%2Fformly-field-input.ts
+https://stackblitz.com/edit/ngx-formly-custom-template-xiphz4
 
 
 # how to setup automatic upgrade of local lib
