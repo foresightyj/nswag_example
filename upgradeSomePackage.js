@@ -7,8 +7,6 @@ const shelljs = require("shelljs");
 const p = "./package.json";
 assert(fs.existsSync(p), "file not found");
 
-const patt = /^\s*".\/dist": ".\/dist"$/;
-
 shelljs.sed("-i", patt, `"./dist": "./dist",
 "./dist/index.css": "./dist/index.css"
 `, p);
