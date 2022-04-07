@@ -1,5 +1,12 @@
+# a list of useful stackblitz demos
+
+## ng formly
+
 https://stackblitz.com/edit/ngx-formly-custom-template-xiphz4
 
+# json to zod
+
+https://stackblitz.com/edit/typescript-yxh8cw?file=index.ts
 
 # how to setup automatic upgrade of local lib
 
