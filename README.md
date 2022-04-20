@@ -4,6 +4,10 @@
 * [Rxjs Concurrent Ajax Requests - StackBlitz]( https://stackblitz.com/edit/rxjs-r7uce1?devtoolsheight=60&file=index.ts )
 * [learn zod - StackBlitz]( https://stackblitz.com/edit/typescript-yxh8cw?file=index.ts )
 
+# useful references
+
+[javascript - @nestjs/swagger: How to add schema without @ApiOkResponse decorator? - Stack Overflow]( https://stackoverflow.com/questions/69011886/nestjs-swagger-how-to-add-schema-without-apiokresponse-decorator )
+
 # how to setup automatic upgrade of local lib
 
 ```
