@@ -8,6 +8,11 @@
 
 [javascript - @nestjs/swagger: How to add schema without @ApiOkResponse decorator? - Stack Overflow]( https://stackoverflow.com/questions/69011886/nestjs-swagger-how-to-add-schema-without-apiokresponse-decorator )
 
+[[next] Major release notes & plans · Issue #191 · nestjs/swagger]( https://github.com/nestjs/swagger/issues/191 )
+[lukeautry/tsoa: Build OpenAPI-compliant REST APIs using TypeScript and Node]( https://github.com/lukeautry/tsoa )
+
+[cdimascio/express-openapi-validator: 🦋 Auto-validates api requests, responses, and securities using ExpressJS and an OpenAPI 3.x specification]( https://github.com/cdimascio/express-openapi-validator )
+
 # how to setup automatic upgrade of local lib
 
 ```
