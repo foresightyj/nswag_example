@@ -39,6 +39,28 @@ function getJsonPathsMutable(obj) {
     return paths;
 }
 
+// slight variation of above, still mutating the same array ref.
+function getJsonPathsMutableUsingClosure(obj) {
+    /**
+     * @param {object} o 
+     * @param {string} parentPath 
+     */
+    function helper(o, parentPath) {
+        assert(typeof o === "object", "o must be object");
+        for (const [k, v] of Object.entries(o)) {
+            if (typeof v === "object") {
+                helper(v, parentPath + k + ".");
+            } else {
+                paths.push(parentPath + k);
+            }
+        }
+    }
+
+    const paths = [];
+    helper(obj, "");
+    return paths;
+}
+
 function getJsonPathsImmutable(obj) {
     /**
      * @param {object} o 
@@ -64,4 +86,5 @@ function getJsonPathsImmutable(obj) {
 }
 
 console.log(getJsonPathsMutable(obj));
+console.log(getJsonPathsMutableUsingClosure(obj));
 console.log(getJsonPathsImmutable(obj));
