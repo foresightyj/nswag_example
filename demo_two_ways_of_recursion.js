@@ -2,7 +2,7 @@
 
 
 function assert(o, msg) {
-    if (!o) throw new Error(msg ?? "o falsy");
+    if (!o) throw new Error(msg || "o falsy");
 }
 
 const obj = {
@@ -13,8 +13,12 @@ const obj = {
         child: {
             nickname: "xiaobao",
             hobby: "sleep"
+        },
+        car: {
+            make: "Peugeot",
+            model: "308S"
         }
-    }
+    },
 };
 
 function getJsonPathsMutable(obj) {
