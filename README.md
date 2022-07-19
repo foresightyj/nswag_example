@@ -39,3 +39,22 @@ then in ~/.bashrc:
 alias u="npm --prefix C://working/lib run pub"
 ```
 
+export const localStorage = (() => {
+    if (IS_DEV) {
+        const localStorageVersion = {
+            getItem(key: string): Promise<string | undefined> {
+                return Promise.resolve(localStorage.getItem(key) || undefined);
+            },
+            setItem(key: string, value: string): Promise<string> {
+                localStorage.setItem(key, value);
+                return Promise.resolve(value);
+            },
+            removeItem(key: string): Promise<void> {
+                return Promise.resolve(localStorage.removeItem(key));
+            },
+        };
+        return localStorageVersion;
+    } 
+})();
+
+
