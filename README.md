@@ -58,3 +58,8 @@ export const localStorage = (() => {
 })();
 
 
+
+# how to do git rebase?
+
+https://app.pluralsight.com/course-player?clipId=0a583d6d-c0ef-4b06-a878-39a25d0c385e
+
