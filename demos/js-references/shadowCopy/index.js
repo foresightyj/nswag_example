@@ -28,6 +28,9 @@ function shallowCopy(obj) {
     return copy;
 }
 
+const shallowCopy2 = obj => ({...obj});
+const shallowCopy3 = obj => Object.assign({}, obj);
+
 const objCopy = shallowCopy(obj);
 assert(obj.spouse === objCopy.spouse);
 console.log("DONE");
