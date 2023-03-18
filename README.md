@@ -92,3 +92,10 @@ export const localStorage = (() => {
 
 https://app.pluralsight.com/course-player?clipId=0a583d6d-c0ef-4b06-a878-39a25d0c385e
 
+
+# async challenges
+
+https://github.com/sadanandpai/javascript-code-challenges/blob/main/challenges/async-challenges.md
+
+https://medium.com/@nikita.malyschkin/8-async-javascript-challenges-for-senior-developers-b994f204d086
+
